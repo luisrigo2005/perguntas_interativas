@@ -8,7 +8,7 @@ Antes de executar o projeto, você precisa ter o Python instalado em sua máquin
 pip install InquirerPy
 ```
 
-## Como Executar
+# Como Executar
 1. Clone este repositório em sua máquina local:
 
 ```ruby
@@ -54,3 +54,9 @@ O código importa a função prompt da biblioteca InquirerPy.
 Define uma lista de perguntas com uma única pergunta sobre o conhecimento do usuário em Python.
 Utiliza a função prompt para exibir a pergunta e coletar a resposta do usuário.
 Por fim, imprime a resposta no terminal.
+
+# Contribuição
+Sinta-se à vontade para contribuir com este projeto! Você pode enviar pull requests ou abrir issues para discutir melhorias.
+
+# Licença
+Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
