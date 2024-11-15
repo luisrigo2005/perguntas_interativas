@@ -46,7 +46,7 @@ perguntas = [
 respostas = prompt(perguntas)
 print(respostas)
 ```
-
+<img src="https://github.com/luisrigo2005/perguntas_interativas/blob/main/app.png" alt="Aplicação">
 
 
 # Descrição do Código
