@@ -27,3 +27,26 @@ python app.py
 
 4. Responda à pergunta exibida no terminal.
 
+# Estrutura do Código
+O arquivo app.py contém o seguinte código:
+from InquirerPy import prompt
+
+perguntas = [
+    {
+        'type': 'list',
+        'message': 'Qual seu conhecimento em Python?',
+        "choices": [
+            'Iniciante',
+            'Intermediario',
+            'Avançado']
+    },
+]
+
+respostas = prompt(perguntas)
+print(respostas)
+
+# Descrição do Código
+O código importa a função prompt da biblioteca InquirerPy.
+Define uma lista de perguntas com uma única pergunta sobre o conhecimento do usuário em Python.
+Utiliza a função prompt para exibir a pergunta e coletar a resposta do usuário.
+Por fim, imprime a resposta no terminal.
