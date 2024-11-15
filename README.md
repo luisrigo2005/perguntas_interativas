@@ -47,6 +47,8 @@ respostas = prompt(perguntas)
 print(respostas)
 ```
 
+
+
 # Descrição do Código
 O código importa a função prompt da biblioteca InquirerPy.
 Define uma lista de perguntas com uma única pergunta sobre o conhecimento do usuário em Python.
