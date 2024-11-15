@@ -4,31 +4,32 @@ Este projeto utiliza a biblioteca InquirerPy para criar uma interface de linha d
 ## Pré-requisitos
 Antes de executar o projeto, você precisa ter o Python instalado em sua máquina. Além disso, você deve instalar a biblioteca InquirerPy. Você pode fazer isso utilizando o seguinte comando:
 
-´´´
+```ruby
 pip install InquirerPy
-´´´
+```
 
 ## Como Executar
 1. Clone este repositório em sua máquina local:
 
-´´´
+```ruby
 git clone https://github.com/seu_usuario/seu_repositorio.git
-´´´
+```
 
 2. Navegue até o diretório do projeto:
-´´´
+```ruby
 cd seu_repositorio
-´´´
+```
 
 3. Execute o script app.py:
-´´´
+```ruby
 python app.py
-´´´
+```
 
 4. Responda à pergunta exibida no terminal.
 
 # Estrutura do Código
 O arquivo app.py contém o seguinte código:
+```ruby
 from InquirerPy import prompt
 
 perguntas = [
@@ -44,6 +45,7 @@ perguntas = [
 
 respostas = prompt(perguntas)
 print(respostas)
+```
 
 # Descrição do Código
 O código importa a função prompt da biblioteca InquirerPy.
