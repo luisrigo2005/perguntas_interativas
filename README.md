@@ -7,3 +7,23 @@ Antes de executar o projeto, você precisa ter o Python instalado em sua máquin
 ´´´
 pip install InquirerPy
 ´´´
+
+## Como Executar
+1. Clone este repositório em sua máquina local:
+
+´´´
+git clone https://github.com/seu_usuario/seu_repositorio.git
+´´´
+
+2. Navegue até o diretório do projeto:
+´´´
+cd seu_repositorio
+´´´
+
+3. Execute o script app.py:
+´´´
+python app.py
+´´´
+
+4. Responda à pergunta exibida no terminal.
+
